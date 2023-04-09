@@ -41,5 +41,14 @@ Note: Uncomment codes to execute and comment them when not in use.
         <a href="https://linuxmint.com/">
             <button style="background-color:#333333; color:#FFFFFF; border-radius:5px">Windows 11</button>
         </a>
+
+        <!--Button function example-->
+        <button onclick="doSomething()" style="background-color:#333333; color:#FFFFFF; border-radius:5px">Function Example</button>
+        <p id="test">Hello</p>
+        <script>
+            function doSomething(){
+                document.getElementById("test").innerHTML = "Goodbye";
+            }
+        </script>
     </body>
 </html>
